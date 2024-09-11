@@ -1,0 +1,35 @@
+body{
+    background-color: rgba(113, 172, 240, 0.158);
+}
+h1{
+    text-align: center;
+}
+button{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: rgb(215, 250, 236);
+}
+button:hover{
+    background-color: rgb(188, 223, 207);
+    cursor: pointer;
+}
+h3{
+    color: rgb(48, 48, 48);
+}
+.result{
+   
+    font-size: 24px;
+    color: green;
+
+}
+.container{
+    background-color: rgba(255, 37, 37, 0.295);
+    margin: 20px auto;
+    width: 500px;
+    padding: 20px;
+    border: 1px solid #919191;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.411);
+}

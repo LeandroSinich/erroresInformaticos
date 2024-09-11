@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Errores</title>
+</head>
+<body>
+    <h1>¿Qué tipos de errores existen en un programa informático?</h1>
+    <div class="container">
+
+        <h2>Error de sintaxis</h2>
+        <p>Ocurre simplemente cuando hay un error en la escritura del código.<br />
+            Este tipo de error no permite la ejecución del código.
+        </p>
+        <button onclick="funcion()">Ejecutar</button>
+    </div>
+    <div class="container">
+
+        <h2>Error de Lógica</h2>
+        <p>Se producen cuando la lógica del código es incorrecta para obtener un determinado resultado.<br />
+            Este tipo de error puede ser difícil de detectar y corregir, ya que puede ocurrir en cualquier parte del código, y no genera error en la consola.
+        </p>
+        <h3>Calcular área del cuadrado</h3>
+        <label for="lado">Ingresar valor para el lado</label>
+        <input type="text" id="lado">
+        <button onclick="getResult()">Calcular</button><br/>
+        <span>El area del cuadrado es:</span>
+        
+    
+        <span id="area" class="result"></span>
+    </div>
+    
+    <div class="container">
+
+        <h2>Error en tiempo de Ejecución</h2>
+        <p id="parrafo">Este tipo de error aparece mientras se ejecuta el programa. <br />
+            Normalmente ocurren cuando se intenta realizar una operación imposible de llevar a cabo.
+            El código se ejecuta normalmete hasta que ocurre dicho error, deteniéndose la ejecución.
+        </p>
+            
+        <button onclick="errorDeEjecucion()">Ejemplo</button>
+        <h3>Mismo Error pero Manejado</h3>
+        <button onclick="manejoDeError()">Ejecutar</button>
+    </div>
+    <script src="errores.js"></script>
+</body>
+</html>
